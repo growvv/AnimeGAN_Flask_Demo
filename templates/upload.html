@@ -2,11 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flask上传图片演示</title>
+    <title>AnimeGAN Demo</title>
+    <style> 
+        .warning{ 
+            line-height: 5px;
+            font-size: 13px;
+            color: #f44336;
+        }/* css 注释说明：设置行距行高22px */ 
+    </style> 
 </head>
 <body>
-    <h1>使用Flask上传本地图片并显示示例一</h1>
-    <form action="" enctype='multipart/form-data' method='POST'>
+    <h1>AnimeGAN: 今天out of memory了吗</h1>
+    <div class="warning">
+        <p>友情提示：</p>
+        <p>1. 不要传涩图，上传的图片都会保存的</p>
+        <p>2. 图片越大，生成时间越长，请耐心等待</p>
+    </div>
+    <form action="./upload" enctype='multipart/form-data' method='POST'>
         <input type="file" name="file" style="margin-top:20px;"/>
         <br>
         <i>请输入你当前的心情（开心、超开心、超超开心）：</i>

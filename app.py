@@ -13,7 +13,7 @@ from predict import predict
 
  
 #设置允许的文件格式
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'JPG', 'PNG', 'bmp'])
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'JPG', 'PNG', 'bmp', 'jpeg'])
  
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
@@ -34,7 +34,10 @@ def create_uuid(): #生成唯一的图片的名称字符串，防止图片显示
     uniqueNum = str(nowTime) + str(randomNum)
     return uniqueNum
  
-# @app.route('/upload', methods=['POST', 'GET'])
+@app.route('/', methods=['GET', 'POST'])
+def hello():
+    return render_template('index.html')
+
 @app.route('/upload', methods=['POST', 'GET'])  # 添加路由
 def upload():
     if request.method == 'POST':
@@ -54,13 +57,16 @@ def upload():
         # img = cv2.imread(upload_path)
         # cv2.imwrite(os.path.join(basepath, 'static/images', 'test.jpg'), img)
 
+        print("predicting")
         predict(filename)
+        print("predicting done")
  
         user_input = request.form.get("name")
-        return render_template('upload_ok.html',userinput=user_input,val1=time.time(),filename=filename)
+        return render_template('upload_ok.html',userinput=user_input,filename=filename)
  
     return render_template('upload.html')
  
+
  
 if __name__ == '__main__':
     # app.debug = True

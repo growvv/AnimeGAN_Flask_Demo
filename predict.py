@@ -5,6 +5,8 @@ import cv2
 import numpy as np
 import os
 
+from torch._C import device
+
 from model import Generator
 import config
 import ipdb
@@ -22,11 +24,12 @@ def load_image(image_path, x32=False):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     h, w = img.shape[:2]
 
-    if x32: # resize image to multiple of 32s
+    if x32: # 是否将图片resize成32的整数倍
         def to_32s(x):
             return 256 if x < 256 else x - x%32
         img = cv2.resize(img, (to_32s(w), to_32s(h)))
 
+    # img = cv2.resize(img, (1080, int(1080/h*w)))
     img = torch.from_numpy(img)
     img = img/127.5 - 1.0
     return img

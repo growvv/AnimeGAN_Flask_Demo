@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flask上传图片演示</title>
+    <title>AnimeGAN Demo</title>
 </head>
 <body>
-    <h1>使用Flask上传本地图片并显示示例一</h1>
+    <h1>深度学习课程作业：动漫人脸风格生成</h1>
     <form action="" enctype='multipart/form-data' method='POST'>
         <input type="file" name="file" style="margin-top:20px;"/>
         <br>
@@ -14,7 +14,8 @@
         <input type="submit" value="上传" class="button-new" style="margin-top:15px;"/>
     </form>
     <h1>阁下的心情是：{{userinput}}！</h1>
-    <img src="{{ url_for('static', filename= './inputs/'+filename,_t=val1) }}" width="400" height="400" alt="你的图片被外星人劫持了～～"/>
-    <img src="{{ url_for('static', filename= './outputs/'+filename,_t=val1) }}" width="400" height="400" alt="你的图片被外星人劫持了～～"/>
+    <div align="center">
+        <img src="{{ url_for('static', filename= 'inputs/'+filename) }}"  alt="你的图片被外星人劫持了～～" width=50%/><img src="{{ url_for('static', filename= 'outputs/'+filename) }}" alt="你的图片被外星人劫持了～～" width="50%"/>
+    </div>
 </body>
 </html>
