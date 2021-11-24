@@ -1,7 +1,7 @@
 import torch
 from torch._C import device
 
-checkpoint = './weights/face_paint_512_v1.pt'
+checkpoint = './weights/face_paint_512_v2_add.pt'
 input_dir = './static/inputs'
 output_dir = './static/outputs'
 upsample_align = False

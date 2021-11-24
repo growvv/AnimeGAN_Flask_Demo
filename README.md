@@ -12,7 +12,7 @@ Go To Experience!!! **[click here](http://tongchen.dynv6.net:8080/)**
 Results from converted `Anime` style model (input image, generate result, pytorch result from left to right)
 
 <div align="center">
-<img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/2021112318053244.jpeg"   width=50%><img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/2021112318472212.jpeg" width=50% > &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/2021112318053244.jpeg"   width=50%><img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/2021112400134355.jpeg" width=50% > &nbsp;
 </div>
 
 <div align="center">
@@ -26,7 +26,9 @@ Results from converted `Anime` style model (input image, generate result, pytorc
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/QQ20211123-0.jpg" width=50%><img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/1.jpg" width=50%> &nbsp; 
 </div>
+
 </details>
+
 
 <details>
 <summary>UI</summary>

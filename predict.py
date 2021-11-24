@@ -5,8 +5,6 @@ import cv2
 import numpy as np
 import os
 
-from torch._C import device
-
 from model import Generator
 import config
 import ipdb
