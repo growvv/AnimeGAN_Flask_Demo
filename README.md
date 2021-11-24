@@ -27,6 +27,8 @@ Results from converted <code>Anime</code> style model (input image, generate res
 <img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/QQ20211123-0.jpg" width=50%><img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/1.jpg" width=50%> &nbsp; 
 </div>
 
+<font color=red size=2>注：图片来自互联网，侵权立删</font>
+
 </details>
 
 
