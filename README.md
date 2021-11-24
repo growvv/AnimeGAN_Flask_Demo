@@ -9,7 +9,7 @@ Go To Experience!!! **[click here](http://tongchen.dynv6.net:8080/)**
 <summary>samples</summary>
 
 <br>
-Results from converted <code>Anime</code> style model (input image, generate result, pytorch result from left to right)
+Results from converted <code>Anime</code> style model (input image, generate result, from left to right)
 
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/2021112318053244.jpeg"   width=50%><img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/2021112400134355.jpeg" width=50% > &nbsp;
