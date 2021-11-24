@@ -32,11 +32,11 @@ Results from converted `Anime` style model (input image, generate result, pytorc
 
 <details>
 <summary>UI</summary>
-<p>Upload picture</p>
+<p>1. Upload picture</p>
 <img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/20211123232213.png"   width=100%>
 
-<p>Generate style picture</p>
-<img src="!https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/20211124151834.png" width=100%>
+<p>2. Generate style picture</p>
+<img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/20211124151834.png" width=100%>
 </details>
  
  
