@@ -36,7 +36,7 @@ Results from converted `Anime` style model (input image, generate result, pytorc
 <img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/20211123232213.png"   width=100%>
 
 <p>Generate style picture</p>
-<img src="https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/20211123232411.png" width=100%>
+<img src="!https://cdn.jsdelivr.net/gh/growvv/image-bed//mac-m1/20211124151834.png" width=100%>
 </details>
  
  
